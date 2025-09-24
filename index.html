@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    </head>
+<body>
+    <header>
+    
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="logo">Penny</div>
+                <ul class="nav-menu">
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <h2>✨ Frontend Developer & Creative Problem Solver ✨</h2>
+            <div class="intro">
+            <p class="about-me">Hi, I'm Mikail Ibrahim Oluwadamilare (Penny Mizzy), a passionate front-end developer from Nigeria who loves turning ideas into clean, responsive websites. I specialize in HTML, CSS, and a touch of JavaScript to create smooth, user-friendly experiences. My goal is to build beautiful, accessible web pages that look great on any device.</p>
+            <img src="https://i.postimg.cc/FH1Rhg1t/IMG-6352.jpg" alt="Penny Mizzy" class="profile-pic"></div>
+            <button onclick="showAbout()">Learn More About Me</button>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+                <li>Responsive Design</li>
+                <li>Git & GitHub</li>
+                <li>Basic SEO Principles</li>
+            </ul>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>Project One</h3>
+                <p>A responsive Landing Page website built with HTML, CSS, and JavaScript.</p>
+                
+                <button onclick="window.location.href='https://pennny-eng.github.io/Landing-Page/'">View Project</button>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>If you'd like to get in touch, feel free to reach out via email</p>
+            
+            <button id="contactBtn">Contact Me</button>
+            <section id="contactSection">
+  <form action="https://formspree.io/f/xgvnejkd" method="POST">
+    <h2>Contact Me</h2>
+    <input type="text" name="name" placeholder="Your Name" required>
+    <input type="email" name="_replyto" placeholder="Your Email" required>
+    <textarea name="message" placeholder="Your Message" required></textarea>
+    <button type="submit">Send</button>
+  </form>
+</section>
+            
+        </section>
+
+    </main>
+    <footer>
+        <p>&copy; 2024 Penny Mizzy. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+    </body>
+    </html>
